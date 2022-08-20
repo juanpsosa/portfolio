@@ -1,0 +1,66 @@
+.row{
+    margin-top: .2rem;
+    padding: 1rem;
+    color: #FFF;
+}
+
+div{
+    background-color: #011526;
+
+}
+
+h2{
+    text-align: center;
+    font-weight: 300;
+
+}
+
+
+#name{
+    font-weight: 800;
+}
+
+@media (min-width: 576px){
+
+ #profileimg{
+    position: absolute;
+    width: 15%;
+    border-radius: 10%;
+    box-shadow: 0 0 5px #333;
+    top: 350px;
+    max-width: 200px;
+ }
+} 
+
+@media (min-width: 576px) and (max-width:753px){
+#profileimg{
+    position: absolute;
+    width: 15%;
+    border-radius: 10%;
+    box-shadow: 0 0 5px #333;
+    top: 530px;
+    width: 15%;
+ }
+ .datos{
+    margin-top: 7%;
+    font-size: 12px;
+    text-align: center;
+ }
+}
+
+@media (max-width: 575px){
+
+    #profileimg{
+       position: absolute;
+       width: 30%;
+       border-radius: 10%;
+       box-shadow: 0 0 5px #333;
+       left: 35%;
+       top: 700px;
+       
+    }
+    .datos{
+        margin-top: 30%;
+        text-align: center;
+    }
+   } 

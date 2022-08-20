@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { LogoapComponent } from './components/logoap/logoap.component';
 import { BannerComponent } from './components/banner/banner.component';
+import { AcercaDeComponent } from './components/acerca-de/acerca-de.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { BannerComponent } from './components/banner/banner.component';
     HeaderComponent,
     LogoapComponent,
     BannerComponent,
+    AcercaDeComponent,
   ],
   imports: [
     BrowserModule,

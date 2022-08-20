@@ -8,19 +8,8 @@
 }
 
 .display-4, .lead{
+    text-align: center;
     color: #F2ECE9;
     background-color: #01152699;
     border-radius: 0.2rem;
-}
-
-/* Responsive */
-@media (max-width: 650px){
-.display-4, .lead{
-    text-align: center;
-}
-
-.row{
-    padding-top: 3rem;
-    padding-bottom: 0rem;
- }
 }

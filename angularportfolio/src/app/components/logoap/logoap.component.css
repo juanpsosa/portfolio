@@ -22,8 +22,13 @@ img{
     width:50px
 }
 
+.btn{
+    padding: 6px;
+    width: 60px;
+}
+
 /* Responsive */
-@media (max-width: 650px){
+@media (max-width: 575px){
 .container{
     flex-direction: column;
    }
