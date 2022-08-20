@@ -1,0 +1,13 @@
+.row{
+    margin-top: .3rem;
+    background-color: #011526;
+}
+
+div{
+    color: #F2ECE9;
+    background-color: #011526;
+}
+
+h3,h4{
+    display: inline;
+}

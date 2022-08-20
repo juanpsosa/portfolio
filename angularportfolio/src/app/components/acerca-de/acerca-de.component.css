@@ -1,7 +1,8 @@
 .row{
     margin-top: .2rem;
     padding: 1rem;
-    color: #FFF;
+    color: #F2ECE9;
+    box-shadow: 0px 15px 10px -15px #111;
 }
 
 div{
@@ -28,7 +29,7 @@ h2{
     border-radius: 10%;
     box-shadow: 0 0 5px #333;
     top: 350px;
-    max-width: 200px;
+    max-width: 190px;
  }
 } 
 
@@ -56,11 +57,11 @@ h2{
        border-radius: 10%;
        box-shadow: 0 0 5px #333;
        left: 35%;
-       top: 700px;
+       top: 715px;
        
     }
     .datos{
-        margin-top: 30%;
+        margin-top: 25%;
         text-align: center;
     }
    } 
