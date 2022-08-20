@@ -1,67 +1,35 @@
+/* Estilos generales */
+
+img{
+    position: relative;
+    box-shadow: 0 0rem 2rem #000000;
+}
+
 .row{
-    margin-top: .2rem;
-    padding: 1rem;
     color: #F2ECE9;
-    box-shadow: 0px 15px 10px -15px #111;
-}
-
-div{
     background-color: #011526;
-
-}
-
-h2{
-    text-align: center;
-    font-weight: 300;
-
 }
 
 
-#name{
-    font-weight: 800;
-}
+/* Mobile first*/
 
-@media (min-width: 576px){
+img{width: 50%;top: -50px;}
 
- #profileimg{
-    position: absolute;
-    width: 15%;
-    border-radius: 10%;
-    box-shadow: 0 0 5px #333;
-    top: 350px;
-    max-width: 190px;
- }
-} 
+.about, .datos{margin-bottom: 1rem;text-align:center;}
 
-@media (min-width: 576px) and (max-width:753px){
-#profileimg{
-    position: absolute;
-    width: 15%;
-    border-radius: 10%;
-    box-shadow: 0 0 5px #333;
-    top: 530px;
-    width: 15%;
- }
- .datos{
-    margin-top: 7%;
-    font-size: 12px;
-    text-align: center;
- }
-}
+h3{font-weight:bold;}
 
-@media (max-width: 575px){
+h4{font-weight: 300;}
 
-    #profileimg{
-       position: absolute;
-       width: 30%;
-       border-radius: 10%;
-       box-shadow: 0 0 5px #333;
-       left: 35%;
-       top: 715px;
-       
-    }
-    .datos{
-        margin-top: 25%;
-        text-align: center;
-    }
-   } 
+p{text-align:justify;}
+
+
+
+/* Dispositivos medianos, más de 768px*/
+
+@media (min-width: 768px){.datos{margin-top: 5%;margin-left: -5%;}}
+
+
+/* Dispositivos grandes, más de 992 */
+
+@media (min-width: 992px){img{left: 25%;max-width: 230px;}.datos{margin-left: -10%;}.about{margin-left: 25%;}}

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Silkscreen&display=swap');
+
 .row{
     padding: 5rem;
     background-image: url('../../../assets/databack1.jpg');
@@ -6,10 +8,23 @@
     background-repeat: no-repeat;
     box-shadow: 0px 15px 10px -15px #111;
 }
+h1{
+    color: #F2ECE9;
+}
+
+p{
+    color: crimson;
+}
 
 .display-4, .lead{
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-weight: bold;
     text-align: center;
-    color: #F2ECE9;
     background-color: #01152699;
     border-radius: 0.2rem;
+    white-space: nowrap;
 }
+.func{
+    color: green;
+}
+
