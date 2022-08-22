@@ -1,11 +1,10 @@
 .row{
-    margin-top: .3rem;
-    background-color: #011526;
+    background-color: rgba(69,72,75,1);
 }
 
 div{
     color: #F2ECE9;
-    background-color: #011526;
+    background-color: rgba(69,72,75,1);
 }
 
 h3,h4{

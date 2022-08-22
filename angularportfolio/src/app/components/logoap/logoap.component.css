@@ -25,6 +25,7 @@ img{
 .btn{
     padding: 6px;
     width: 60px;
+    font-weight: 500;
 }
 
 /* Responsive */

@@ -1,4 +1,5 @@
 /* Estilos generales */
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
 
 img{
     position: relative;
@@ -7,7 +8,10 @@ img{
 
 .row{
     color: #F2ECE9;
-    background-color: #011526;
+    background: rgb(242,236,233);
+background: linear-gradient(180deg, rgba(242,236,233,1) 0%, rgba(69,72,75,1) 100%);
+    font-family: 'Kanit', sans-serif;
+
 }
 
 
@@ -15,13 +19,13 @@ img{
 
 img{width: 50%;top: -50px;}
 
-.about, .datos{margin-bottom: 1rem;text-align:center;}
+.about, .datos{margin-bottom: 1rem;text-align:center; color: #F2ECE9;}
 
-h3{font-weight:bold;}
+h3{font-weight:bold;font-size: 2rem;text-shadow: 0 2px 5px #000000;}
 
-h4{font-weight: 300;}
+h4{font-weight: 600;text-shadow: 0 2px 5px #000000;}
 
-p{text-align:justify;}
+p{text-align:justify; font-size: 1.5rem;margin: 2%;text-shadow: 0 2px 5px #000000;border-top: 5px #F2ECE9 solid;}
 
 
 
@@ -32,4 +36,4 @@ p{text-align:justify;}
 
 /* Dispositivos grandes, más de 992 */
 
-@media (min-width: 992px){img{left: 25%;max-width: 230px;}.datos{margin-left: -10%;}.about{margin-left: 25%;}}
+@media (min-width: 992px){img{left: 25%;max-width: 230px;}.datos{margin-left: -10%;}.about{margin-left: 25%;}p{font-size:1.5em}}

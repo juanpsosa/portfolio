@@ -13,18 +13,18 @@ h1{
 }
 
 p{
-    color: crimson;
+    color: #ce0a31;
 }
 
 .display-4, .lead{
     font-family: 'Alumni Sans Pinstripe', sans-serif;
     font-weight: bold;
     text-align: center;
-    background-color: #01152699;
+    background-color: #000000ab;
     border-radius: 0.2rem;
     white-space: nowrap;
 }
 .func{
-    color: green;
+    color: #d0d26f;
 }
 
