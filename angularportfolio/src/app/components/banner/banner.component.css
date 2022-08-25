@@ -13,7 +13,7 @@ h1{
 }
 
 p{
-    color: #ce0a31;
+    color: #EF6024;
 }
 
 .display-4, .lead{
@@ -22,9 +22,8 @@ p{
     text-align: center;
     background-color: #000000ab;
     border-radius: 0.2rem;
-    white-space: nowrap;
 }
 .func{
-    color: #d0d26f;
+    color: #EF6024;
 }
 

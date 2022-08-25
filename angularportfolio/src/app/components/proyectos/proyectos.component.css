@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Space+Mono&display=swap');
+
+.row{
+    font-family: 'Space Mono', monospace;
+    padding: 1rem;
+}
+
+
+.pt1, .pt2{
+    display: inline-block;
+    text-align: justify;
+}
+
+
+.pt2 {
+    animation-name: object;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes object {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, -15px); }
+    to   { transform: translate(0, -0px); }    
+}
+
+
+.display-5{
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+    margin-bottom: revert;
+}

@@ -2,7 +2,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    box-shadow: 0px 15px 10px -15px #111;
+    box-shadow: inset 0px 0px 200px 10px #000000;
+    filter: opacity(100%);
 }
 
 .redes{
@@ -26,6 +27,7 @@ img{
     padding: 6px;
     width: 60px;
     font-weight: 500;
+    font-size: 15px;
 }
 
 /* Responsive */

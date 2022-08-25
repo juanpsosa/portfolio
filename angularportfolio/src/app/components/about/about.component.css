@@ -1,21 +1,19 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Space+Mono&display=swap');
-.row{
+
+.jumbotron{
+    box-shadow: 0px -15px 10px -15px #111;
+    padding: 30px 20px 20px 20px;
     font-family: 'Space Mono', monospace;
-    padding: 1rem;
 }
 
+p{
+    text-align: justify;
+}
 
 .display-5{
     color: #000;
     text-transform: uppercase;
     letter-spacing: 5px;
     font-weight: bold;
-    margin-bottom: revert;
-}
-
-h4{
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    font-size: 20px;
 }

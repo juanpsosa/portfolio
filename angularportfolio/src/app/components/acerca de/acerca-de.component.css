@@ -1,0 +1,52 @@
+/* Estilos generales */
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Space+Mono&display=swap');
+img{position: relative;width: 50%;top: -50px;
+    animation-name: object;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes object {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 10px); }
+    to   { transform: translate(0, -0px); }    
+}
+
+
+/* Nobmre y subtitulos */
+.row{
+    box-shadow: inset 0px 0px 200px 10px #c4c4c4;
+    filter: opacity(100%);
+
+    
+}
+
+.nombre{
+    font-family: 'Kaushan Script', cursive;    -webkit-transform: rotate(355deg);
+    -moz-transform: rotate(355deg);
+    -ms-transform: rotate(355deg);
+    -o-transform: rotate(355deg);
+    transform: rotate(355deg);
+    line-height: 1.3;
+    text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
+    0px -4px 10px rgba(255,255,255,0.3);
+    font-weight: bold;
+    font-size: 2.5rem;}
+
+.fsds{
+    font-size: 1.01rem;line-height: 1.1;font-weight: 600;
+    text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3);
+    text-align:center; font-family: 'Space Mono', monospace;
+    margin-top:2rem;margin-bottom:20px}
+
+p{text-align:justify; margin: 2%;}
+
+/* Dispositivos medianos, más de 768px*/
+
+@media (min-width: 768px){.datos{margin-top: 1rem;margin-left: -5%;}}
+
+
+/* Dispositivos grandes, más de 992 */
+
+@media (min-width: 992px){img{left: 25%;max-width: 230px;}.datos{margin-left: -9%;margin-top: 1rem;}}
+
