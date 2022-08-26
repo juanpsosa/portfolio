@@ -34,7 +34,7 @@ img{position: relative;width: 50%;top: -50px;
     font-size: 2.5rem;}
 
 .fsds{
-    font-size: 1.01rem;line-height: 1.1;font-weight: 600;
+    font-size: .99rem;line-height: 1.1;font-weight: 600;
     text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3);
     text-align:center; font-family: 'Space Mono', monospace;
     margin-top:2rem;margin-bottom:20px}
@@ -43,10 +43,10 @@ p{text-align:justify; margin: 2%;}
 
 /* Dispositivos medianos, más de 768px*/
 
-@media (min-width: 768px){.datos{margin-top: 1rem;margin-left: -5%;}}
+@media (min-width: 768px){ .nombre{margin-top: 10px;}}
 
 
 /* Dispositivos grandes, más de 992 */
 
-@media (min-width: 992px){img{left: 25%;max-width: 230px;}.datos{margin-left: -9%;margin-top: 1rem;}}
+@media (min-width: 992px){img{left: 25%;max-width: 230px;}}
 
