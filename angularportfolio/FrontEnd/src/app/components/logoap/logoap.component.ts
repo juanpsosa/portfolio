@@ -11,5 +11,4 @@ export class LogoapComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
 }
