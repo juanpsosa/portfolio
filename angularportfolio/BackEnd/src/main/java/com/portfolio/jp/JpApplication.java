@@ -1,13 +1,13 @@
-package com.porfolio.jps;
+package com.portfolio.jp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class JpsApplication {
+public class JpApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(JpsApplication.class, args);
+		SpringApplication.run(JpApplication.class, args);
 	}
 
 }
