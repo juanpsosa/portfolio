@@ -17,7 +17,8 @@
             <a href="">
                 <img src="../../../assets/gorjeo.png" alt="">
             </a>
-            <a href="/login"><button type="button" class="btn btn-outline-light">Log In</button></a>
+            <a href="/login"><button type="button" class="btn btn-outline-light" (click)="login()" *ngIf="!isLogged">Log In</button></a>
+            <a href="/login"><button type="button" class="btn btn-outline-light" (click)="onLogOut()" *ngIf="isLogged">Salir</button></a>
         </div>
     </div>
 </div>
