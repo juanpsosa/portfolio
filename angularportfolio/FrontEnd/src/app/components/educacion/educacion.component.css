@@ -1,19 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Space+Mono&display=swap');
+
 .row{
     font-family: 'Space Mono', monospace;
-    padding: 1rem;  
+    padding: 1rem;
 }
-
 h3{
     display: inline;
 }
+
 h1{
-        font-weight: bold;
-        background: #e6e6e6;
-        text-transform: uppercase;
-        letter-spacing: 5px;
-        font-size: 15px;
+    font-weight: bold;
+    background: #e6e6e6;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 15px;
 }
+
 
 h4{
     display: block;
@@ -21,4 +23,8 @@ h4{
     font-size: 16px;
     font-weight: normal;
     color: #bfbfbf;
+}
+.botones{
+    display: grid;
+    align-content: center;
 }

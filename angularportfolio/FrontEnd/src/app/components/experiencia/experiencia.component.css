@@ -24,3 +24,8 @@ h4{
     font-weight: normal;
     color: #bfbfbf;
 }
+
+.botones{
+    display: grid;
+    align-content: center;
+}
