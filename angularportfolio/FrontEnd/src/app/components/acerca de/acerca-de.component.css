@@ -39,7 +39,9 @@ img{position: relative;width: 50%;top: -50px;
     text-align:center; font-family: 'Space Mono', monospace;
     margin-top:2rem;margin-bottom:20px}
 
-p{text-align:justify; margin: 2%;}
+
+
+p{text-align:justify;margin: 2%;}
 
 /* Dispositivos medianos, más de 768px*/
 
@@ -50,3 +52,15 @@ p{text-align:justify; margin: 2%;}
 
 @media (min-width: 992px){img{left: 25%;max-width: 230px;}}
 
+
+.about{
+    font-family: 'Space Mono', monospace;
+    font-size: .99rem;font-weight: 600;
+}
+
+
+.desc{
+    font-family: 'Space Mono', monospace;
+    font-size: .80rem
+
+}
